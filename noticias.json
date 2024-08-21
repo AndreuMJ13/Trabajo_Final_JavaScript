@@ -1,0 +1,25 @@
+[
+    {
+        "titulo": "Windows 11 es más eficiente y ahora permite utilizar dos planes de energía",
+        "contenido": "Microsoft ha introducido novedades en la última build de Windows 11 dentro del canal Canary, identificada como 27686, que hacen que este sistema operativo sea un poco más eficiente, y también más personalizable y fácil de gestionar para cualquier perfil de usuario, aunque la novedad que vamos a ver hoy se dirige a ordenadores portátiles, convertibles y 2 en 1",
+        "imagen": "images/windows11.jpg"
+
+    },
+    {
+        "titulo": "Sin rumbo ni memoria: cómo el móvil nos ha convertido en gente desorientada, olvidadiza y aislada",
+        "contenido": "La tecnología mejora la vida en muchos sentidos, pero confiar demasiado en ella también nos hace vulnerables a que al acabarse la batería de los dispositivos nos volvamos seres inútiles. Los adultos han asumido la necesidad constante de internet, pero los jóvenes han nacido directamente con ella",
+        "imagen": "images/moviles.avif"
+    },
+    {
+        "titulo": "Nintendo Switch 2 no igualará en potencia a PS5, aunque lo hará en un desagradable aspecto",
+        "contenido": "Nintendo Switch 2 pretende competir con la futura PlayStation 5 Pro de Sony que se espera para finales de este año, aunque no lo hará en gráficos ni en hardware, pero sí en un aspecto que no gustará a casi nadie: su precio.",
+        "imagen": "images/nintendo.avif"
+        
+    },
+
+    {
+        "titulo": "Descubrimos el mejor set de tazas para tomar café: de diseño y con gran relación calidad-precio",
+        "contenido": "Se trata de un pack de cuatro unidades, vienen en diferentes colores y están fabricadas en cerámica de muy buena calidad",
+        "imagen": "images/cafe.avif"
+    }
+]

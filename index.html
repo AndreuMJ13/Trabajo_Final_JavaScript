@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;400;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header class="header" id="inicio">
+        <img src="images/menu.svg" alt="" class="menu">
+        <nav class="menu-navegacion">
+            <a href="#inicio">Inicio</a>
+            <a href="productos.html">Productos</a>
+            <a href="presupuesto.html">Presupuesto</a>
+            <a href="contacto.html">Contacto</a>            
+        </nav>
+        <div class="contenedor head">
+            <h1 class="titulo">ShopingMedia</h1>
+            <p class="copy">Productos electronicos de las grandes marcas</p>
+        </div>
+    </header>
+    <main>
+        <section class="contenedor" id="Servicios">
+            <h2 class="subtitulo">Nuestros Productos y Servicios</h2>
+        
+            <!--Informática -->
+            <div class="contenedor-servicios ">
+                <img src="images/informatica.avif" alt="Producto de Informática">
+                <div class="servicios-informaticos">
+                    <div class="service">
+                        <h3 class="n-service"><span class="number">1</span>Informática</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi nesciunt aliquam consequuntur voluptatum distinctio nostrum odit placeat architecto veniam nisi.</p>
+                    </div>
+                </div>
+            </div>
+        
+            <!-- Telefonía -->
+            <div class="contenedor-servicios ">
+                <img src="images/telefonia.avif" alt="Producto de Telefonía">
+                <div class="servicios-informaticos">
+                    <div class="service">
+                        <h3 class="n-service"><span class="number">2</span>Telefonía</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi nesciunt aliquam consequuntur voluptatum distinctio nostrum odit placeat architecto veniam nisi.</p>
+                    </div>
+                </div>
+            </div>
+        
+            <!-- Gaming -->
+            <div class="contenedor-servicios">
+                <img src="images/gaming.avif" alt="Producto de Gaming">
+                <div class="servicios-informaticos">
+                    <div class="service">
+                        <h3 class="n-service"><span class="number">3</span>Gaming</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi nesciunt aliquam consequuntur voluptatum distinctio nostrum odit placeat architecto veniam nisi.</p>
+                    </div>
+                </div>
+            </div>
+        
+            <!--  Hogar -->
+            <div class="contenedor-servicios">
+                <img src="images/hogar.avif" alt="Producto para el Hogar">
+                <div class="servicios-informaticos">
+                    <div class="service">
+                        <h3 class="n-service"><span class="number">4</span>Hogar</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi nesciunt aliquam consequuntur voluptatum distinctio nostrum odit placeat architecto veniam nisi.</p>
+                    </div>
+                </div>
+            </div>
+        
+        </section>
+        <section class="contenedor" id="Noticias">
+            <h2 class="subtitulo">Últimas Noticias</h2>
+            <div id="contenedor-noticias">
+                <!-- Aquí se cargarán las noticias desde el archivo JSON -->
+            </div>
+        </section>
+
+    </main>
+    <footer>
+        <div class="contenedor footer-content">
+            <div class="contact-us">
+                <h2 class="brand">ShopingMedia</h2>
+                <p>Somos expertos en el sector electrónico</p>
+            </div>
+            <div class="social-media">
+                <a href="./" class="social-media-icon">
+                    <i class='bx bxl-facebook'></i>
+                </a>
+                <a href="./" class="social-media-icon">
+                    <i class='bx bxl-twitter'></i>
+                </a>
+                <a href="./" class="social-media-icon">
+                    <i class='bx bxl-instagram'></i>
+                </a>
+            </div>   
+        </div>
+        <div class="line"></div>
+    </footer>
+
+    <script src="js/noticias.js"></script>
+   <script src="js/menu.js"></script>
+   <script src="js/lightbox.js"></script>
+</body>
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - ShopingMedia</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;400;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    
+    <link rel="stylesheet" href="https://unpkg.com/leaflet-routing-machine@3.2.12/dist/leaflet-routing-machine.css" />
+    
+</head>
+<body> 
+    <header class="header" id="inicio">
+        <img src="images/menu.svg" alt="" class="menu">
+        <nav class="menu-navegacion">
+            <a href="index.html">Inicio</a>
+            <a href="productos.html">Productos</a>
+            <a href="presupuesto.html">Presupuesto</a>
+            <a href="#contacto">Contacto</a>            
+        </nav>
+        <div class="contenedor head">
+            <h1 class="titulo">ShopingMedia</h1>
+            <p class="copy">Productos electrónicos de las grandes marcas</p>
+        </div>
+    </header>
+    <section class="contenedor" id="contacto">
+        <h2 class="subtitulo">No dude en consultarnos</h2>
+        <section class="contacto">
+            <div class="cont-contacto">
+                <div id="map"></div>
+                <h3 class="n-contacto">Contáctenos</h3>
+                <p>Dirección: Calle Ejemplo 123, Ciudad, País</p>
+                <p>Teléfono: +123 456 7890</p>
+                <p>Email: contacto@shopingmedia.com</p>
+            </div>
+            
+        </section>
+    </section>
+    <footer>
+        <div class="contenedor footer-content">
+            <div class="contact-us">
+                <h2 class="brand">ShopingMedia</h2>
+                <p>Somos expertos en el sector electrónico</p>
+            </div>
+            <div class="social-media">
+                <a href="./" class="social-media-icon">
+                    <i class='bx bxl-facebook'></i>
+                </a>
+                <a href="./" class="social-media-icon">
+                    <i class='bx bxl-twitter'></i>
+                </a>
+                <a href="./" class="social-media-icon">
+                    <i class='bx bxl-instagram'></i>
+                </a>
+            </div>   
+        </div>
+        <div class="line"></div>
+    </footer>
+
+
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+   
+    <script src="https://unpkg.com/leaflet-routing-machine@3.2.12/dist/leaflet-routing-machine.js"></script>
+    <script src="js/map.js"></script>
+    <script src="js/menu.js"></script>
+    <script src="js/lightbox.js"></script>
+</body>
+</html>

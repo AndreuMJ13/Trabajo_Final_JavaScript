@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;400;700&display=swap" rel="stylesheet">
+</head>
+
+<body> 
+    <header class="header" id="inicio">
+        <img src="images/menu.svg" alt="" class="menu">
+        <nav class="menu-navegacion">
+            <a href="index.html">Inicio</a>
+            <a href="productos.html">Productos</a>
+            <a href="#presupuesto">Presupuesto</a>
+            <a href="contacto.html">Contacto</a>            
+        </nav>
+        <div class="contenedor head">
+            <h1 class="titulo">ShopingMedia</h1>
+            <p class="copy">Productos electronicos de las grandes marcas</p>
+        </div>
+    </header>
+    <section class="contenedor" id="presupuesto">
+        <h2 class="subtitulo">Pide ahora tu Presupuesto</h2>
+        <section class="presupuesto">
+            <div class="cont-presupuesto">
+                <img src="images/presupuesto.avif" alt="">
+                <h3 class="n-presupuesto">Sin Compromiso</h3>
+            </div>
+        </section>
+    </section>
+
+    <form id="form-presupuesto">
+        <!-- Sección de Datos de Contacto -->
+        <fieldset>
+            <legend>Datos de Contacto</legend>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="telefono">Teléfono:</label>
+            <input type="tel" id="telefono" name="telefono">
+        </fieldset>
+
+        <!-- Sección de Presupuesto -->
+        <fieldset>
+            <legend>Presupuesto</legend>
+
+            <!-- Producto -->
+            <label for="producto">Producto:</label>
+            <select id="producto" name="producto" required>
+                <option value="laptop">Ordenador Portatil</option>
+                <option value="telefono">Teléfono</option>
+                <option value="gaming">Consola Ultima generacion</option>
+                <option value="hogar">Cafetera</option>
+            </select>
+
+            <!-- Plazo -->
+            <label for="plazo">Plazo:</label>
+            <select id="plazo" name="plazo" required>
+                <option value="1">1 año</option>
+                <option value="2">2 años</option>
+                <option value="3">3 años</option>
+            </select>
+
+            <!-- Extras -->
+            <label for="extras">Extras:</label>
+            <select id="extras" name="extras" required>
+                <option value="ninguno">Ninguno</option>
+                <option value="garantia">Garantía extendida</option>
+                <option value="soporte">Soporte técnico</option>
+            </select>
+
+            <!-- Presupuesto Calculado -->
+            <div id="presupuesto-calculado">
+                <h3>Presupuesto Estimado: <span id="presupuesto-total">0</span> EUR</h3>
+            </div>
+        </fieldset>
+
+        <!-- Condiciones -->
+        <fieldset>
+            <legend>Condiciones</legend>
+            <label for="condiciones">
+                <input type="checkbox" id="condiciones" name="condiciones" required> Acepto los términos y condiciones
+            </label>
+        </fieldset>
+
+        <!-- Botón de Envío -->
+        <button type="submit">Enviar Presupuesto</button>
+    </form>
+
+
+
+</body>
+
+
+<footer>
+    <div class="contenedor footer-content">
+        <div class="contact-us">
+            <h2 class="brand">ShopingMedia</h2>
+            <p>Somos expertos en el sector electrónico</p>
+        </div>
+        <div class="social-media">
+            <a href="./" class="social-media-icon">
+                <i class='bx bxl-facebook'></i>
+            </a>
+            <a href="./" class="social-media-icon">
+                <i class='bx bxl-twitter'></i>
+            </a>
+            <a href="./" class="social-media-icon">
+                <i class='bx bxl-instagram'></i>
+            </a>
+        </div>   
+    </div>
+    <div class="line"></div>
+</footer>
+
+<script src="js/presupuesto.js"></script>
+<script src="js/menu.js"></script>
+<script src="js/lightbox.js"></script>
+</html>
